@@ -1,0 +1,189 @@
+body {
+  margin: 0px;
+  background-color: #f3e5d7;
+  display: grid;
+  place-content: center;
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+ol {
+  margin: 0px;
+  padding: 0px;
+}
+
+.principal {
+  width: 736px;
+  margin: 128px 0px;
+  box-sizing: border-box;
+  background-color: #fff;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  padding: 40px;
+  border-radius: 24px;
+  gap: 40px;
+}
+.omelette {
+  height: 300px;
+  border-radius: 12px;
+}
+
+.receita {
+  display: grid;
+  justify-content: center;
+  gap: 32px;
+}
+
+.cabecalho {
+  display: grid;
+  gap: 24px;
+}
+.titulo {
+  color: #312e2c;
+  font-family: "Young Serif", serif;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+.descricao {
+  color: #5f564d;
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-weight: 400;
+}
+
+.estimativa {
+  background-color: #fff7fb;
+  border-radius: 12px;
+  display: grid;
+  gap: 16px;
+  padding: 24px;
+}
+.tempo {
+  color: #7a284e;
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  font-weight: 600;
+}
+.lista1 {
+  display: grid;
+  gap: 8px;
+  padding-left: 24px;
+}
+.itemlista1::marker {
+  color: #7a284e;
+}
+.itemlista1 {
+  color: #5f564d;
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-weight: 400;
+  padding-left: 16px;
+}
+
+.ingredientes {
+  display: grid;
+  gap: 24px;
+}
+.subtitulos {
+  color: #854632;
+  font-family: "Young Serif", serif;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+.lista_ingredientes {
+  display: grid;
+  gap: 8px;
+  padding-left: 24px;
+}
+.itemlista2 {
+  color: #5f564d;
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-weight: 400;
+  padding-left: 16px;
+}
+.itemlista2::marker {
+  color: #854632;
+}
+
+.traco {
+  height: 1px;
+  background-color: #e3ddd7;
+}
+
+.lista_etapas {
+  margin-top: 24px;
+  padding-left: 24px;
+  display: grid;
+  gap: 8px;
+}
+.itemlista3 {
+  color: #5f564d;
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-weight: 400;
+  padding-left: 16px;
+}
+.itemlista3::marker {
+  color: #854632;
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-weight: 700;
+}
+
+.nutricao {
+  display: grid;
+  gap: 24px;
+}
+.infovalor {
+  color: #5f564d;
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-weight: 400;
+}
+.tabela {
+  display: grid;
+  gap: 12px;
+}
+.valor_nutritivo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0px 32px;
+  column-gap: 16px;
+}
+.itemnutri {
+  color: #5f564d;
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-weight: 400;
+}
+.valor {
+  color: #854632;
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-weight: 700;
+}
