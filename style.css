@@ -48,6 +48,7 @@ ol {
   font-size: 40px;
   line-height: 100%;
   letter-spacing: 0px;
+  font-weight: 400;
 }
 .descricao {
   color: #5f564d;
@@ -101,6 +102,7 @@ ol {
   font-size: 28px;
   line-height: 100%;
   letter-spacing: 0px;
+  font-weight: 400;
 }
 .lista_ingredientes {
   display: grid;
